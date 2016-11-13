@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var request = require('request');
-
+var urlencode = require('urlencode');
 var KEY = 'AIzaSyDAlPOPOTGF_bJqlVorAxdoRDkTzjOXAVw';
 var CX = '000435555281666006490:txkz-gj5tuy';
 var REQ_URL = 'https://www.googleapis.com/customsearch/v1?' +
@@ -18,6 +18,7 @@ router.get('/',  function(req, res, next) {
     for (var i in req.query) {
       url = url + '&' + i + '=' + req.query[i];
     }
+    url=urlencode(url,'gbk');
     console.log(url);
 
     request(url, function (err, response, body) {
