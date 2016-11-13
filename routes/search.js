@@ -2,12 +2,8 @@ var express = require('express');
 var router = express.Router();
 var request = require('request');
 var urlencode = require('urlencode');
-var KEY = 'AIzaSyDAlPOPOTGF_bJqlVorAxdoRDkTzjOXAVw';
-var CX = '000435555281666006490:txkz-gj5tuy';
-var REQ_URL = 'https://www.googleapis.com/customsearch/v1?' +
-    // 'prettyPrint=false' +
-    'key=' + KEY +
-    '&cx=' + CX;
+var REQ_URL = require('../google');
+
 
 /* GET users listing. */
 router.get('/',  function(req, res, next) {
