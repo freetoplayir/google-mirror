@@ -21,7 +21,7 @@ body {
   margin-left: 1em;
   width: 95px;
   height: 37px;
-  background: url('/img/nav_logo195.png') no-repeat;
+  background: url('/img/nav_logo242.png') no-repeat;
   background-position: 0 -41px; 
 }
 
@@ -54,7 +54,7 @@ body {
   margin-top: -19px;
   width: 72px;
   height: 29px;
-  
+
   border-radius: 2px;
   border: 1px solid #3079ed;
   background-color: #4d90fe;
@@ -72,7 +72,7 @@ body {
   margin-top: 5px;
   width: 18px;
   height: 18px;
-  background: url('/img/nav_logo195.png') no-repeat -113px -61px;
+  background: url('/img/nav_logo242.png') no-repeat -110px -57px;
 }
 
 #content {
@@ -165,7 +165,7 @@ body {
 }
 
 #nav ul li .nav-item-img {
-  background: url(/img/nav_logo195.png) no-repeat -74px 0;
+  background: url(/img/nav_logo242.png) no-repeat -74px 0;
   width: 20px;
   height: 40px;
 }
