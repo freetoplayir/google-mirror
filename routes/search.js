@@ -16,7 +16,7 @@ router.get('/',  function(req, res, next) {
     url = REQ_URL;
 
     for (var i in req.query) {
-      url = url + '&' + i + '=' + urlencode(req.query[i],'gbk');
+      url = url + '&' + i + '=' + urlencode(req.query[i]);
     }
     console.log(url);
 
