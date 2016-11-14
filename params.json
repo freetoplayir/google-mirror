@@ -1,6 +1,0 @@
-{
-  "name": "Google-mirror",
-  "tagline": "谷歌镜像程序",
-  "body": "# Google-mirror\r\n\r\n![Google](https://www.google.com.hk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)\r\n\r\n****\r\n\r\nGoogle镜像,Node.js+Express\r\n\r\n\r\n****\r\n\r\n使用Google Custom Search的API.\r\n\r\n* [获取CX](https://cse.google.com/cse)\r\n* [获取APIKEY](https://console.developers.google.com/apis)\r\n\r\n借鉴 [isayme](https://github.com/isayme/google)\r\n\r\n\r\n****\r\n\r\n`npm install`\r\n`npm start`\r\n\r\n`GET http://localhost:3000/`\r\n\r\n****\r\n\r\nhttp://google.siuuu.top/\r\n\r\n****\r\n\r\n分页还没做~~~~",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
